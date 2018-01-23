@@ -1,0 +1,14 @@
+.my-title{
+    font-family:Georgia, serif;
+    font-size: 600px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-shadow: 2px 2px 0 gray;
+    text-align: center;
+}
+.my-sub-title{
+    font-family:Arial;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+}

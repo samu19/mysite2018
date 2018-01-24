@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+    <head>
+         
+    <meta charset="utf-8"> 
+    <meta name="description" content="Bootstrap walkthrough">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Samu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome.io -->
+    <script src="https://use.fontawesome.com/89eb95a288.js"></script>
+    <script>
+            $(document).ready(function(){
+                $('[data-toggle="tooltip1"]').tooltip(); 
+                $('[data-toggle="tooltip2"]').tooltip(); 
+            });
+    </script>
+    </head>
+    <body>
+        <div class="container-fluid">
+                <div class="jumbotron">
+                    <h1>My First Bootstrap Page</h1>
+                    <p>This is some text.</p>
+                </div> 
+            
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                      <div class="navbar-header">
+                        <a class="navbar-brand" href="#">COMWorks</a>
+                    </div>
+                      <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <form class="navbar-form navbar-right">
+                              <div class="form-group">
+                                <input type="text" placeholder="Search"class="form-control"/>
+                              </div>
+                                <button type="Submit" class="btn btn-default">Search</button>
+                          </form>
+                     </div>
+             </nav>
+             <div class="container-fluid">
+                 <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <div style="padding: 10px 10px 10px 10px; float: left">
+                            <form action="/action_page.php">
+                                <div class="form-group">
+                                  <label for="email">Email address:</label>
+                                  <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="form-group">
+                                  <label for="pwd">Password:</label>
+                                  <input type="password" class="form-control" id="pwd">
+                                </div>
+                                <div class="checkbox">
+                                  <label><input type="checkbox"> Remember me</label>
+                                </div>
+                                <button type="submit" class="btn btn-default">Submit</button>
+                              </form>
+                             </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 text-center">
+                        <h1>About myself</h1>
+                        <hr>
+                        <p>
+                        Singapore, 22 January 2018 – Singtel’s Chinese New Year short film titled “Mr Lim’s Reunion Dinner” has gone viral, garnering 1 million views on Facebook in two days since its release on Friday, a record for the company’s branding videos. The film’s gentle reminder to Singaporeans to celebrate the festive season with their loved ones and preserve traditions in today’s fast-paced society, seems to have struck a chord with netizens who shared the video over 20,000 times.
+                        </p>
+                    </div>
+                 </div>
+                 <div class="row">
+                    <div class="col-xs-12">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1"  allowfullscreen></iframe>
+                           </div>
+                    </div>
+            </div>           
+    </div>
+    <hr>
+    <div clas="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <p>
+                    <h3>Media 1</h3>
+                    The film revolves around a widower Mr Lim, played by veteran actor Lim Kay Tong, as he busies himself with preparations for the all-important reunion dinner held every eve of Chinese New Year, while eagerly awaiting his children’s homecoming. As the day approaches, his son and daughter who both live and work overseas, tell him separately that they will not be coming home after all. Both mistakenly assume that the other sibling will be around to celebrate the occasion with him.
+                </p>
+                <p>
+                    <a href="#" class="btn btn-default" role="button">View Details &raquo;</a>
+                </p>
+            </div>
+        <div class="col-md-4">
+            <p>
+                <h3>Media 2</h3>
+                The film revolves around a widower Mr Lim, played by veteran actor Lim Kay Tong, as he busies himself with preparations for the all-important reunion dinner held every eve of Chinese New Year, while eagerly awaiting his children’s homecoming. As the day approaches, his son and daughter who both live and work overseas, tell him separately that they will not be coming home after all. Both mistakenly assume that the other sibling will be around to celebrate the occasion with him.
+            </p>
+            <p>
+                    <a href="#" class="btn btn-default" role="button">View Details &raquo;</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+                <p>
+                        <h3>Media 3</h3>
+                        The film revolves around a widower Mr Lim, played by veteran actor Lim Kay Tong, as he busies himself with preparations for the all-important reunion dinner held every eve of Chinese New Year, while eagerly awaiting his children’s homecoming. As the day approaches, his son and daughter who both live and work overseas, tell him separately that they will not be coming home after all. Both mistakenly assume that the other sibling will be around to celebrate the occasion with him.
+                </p>
+                <p>
+                        <a href="#" class="btn btn-default" role="button">View Details &raquo;</a>
+                   </p>
+        </div>
+        
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <div class="col-xs-12 col-md-4 panel panel-default">
+            <h3 class="text-center"> Operating hours</h3>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                       <th>Day</th>
+                        <th> Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Monday to THursday
+                        </td>
+                        <td>
+                            0900 - 1700 hrs
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Friday and Saturday
+                        </td>
+                        <td>
+                            1100 - 1800 hrs
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Sunday
+                        </td>
+                        <td>
+                                Closed
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+        <div class="col-xs-12 col-md-4">
+            <div class="embed responsive embed-responsive-4by3">
+                <iframe src="https://goo.gl/KUBB7L" class="resposive-embed"></iframe>
+
+            </div>
+
+        </div>
+            <div class="col-xs-12 col-md-4">
+                <h3>Check Me Out</h3>
+                <br>
+                <div class="list-group">
+                    <a href="#" class = "list-group-item"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>samu@gmail.com</a>
+                    <a href="#" class = "list-group-item"><i class="fa fa-phone fa-2x" aria-hidden="true"></i>90865645</a>
+                    <a href="#" class = "list-group-item"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i>t.me/samu</a>
+
+                </div>
+
+
+
+            </div>
+    
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-xs-12 text-center">
+            <ul class="list-inline">
+                <li>
+                    <a href="https://facebook.com"data-toggle="tooltip2" title="Hooray facebook">
+                      <i class="fa fa-facebook fa-3x " aria-hidden="true"></i>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="https://instagram.com" data-toggle="tooltip1" title="Hooray instagram">
+                        <i class="fa fa-instagram fa-3x" aria-hidden="true"></i> 
+                    </a>
+
+                </li>
+                <li>
+                    <a href="https://google.com">
+                        <i class="fa fa-google fa-3x" aria-hidden="true"></i> 
+                    </a>
+
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-snapchat fa-3x" aria-hidden="true"></i>
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+        <footer>
+            Copyright @copy; 2018 Some Pte Ltd.
+        </footer>
+
+    </div>
+ </body>
+</html>
